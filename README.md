@@ -1,7 +1,16 @@
+# Terminal commands 
+
+A list of customized terminal commands I used the most to boost my productivity.
+
+I will be expanding this list from time to time as I discover / create more commands that help me on my day to day as an iOS Engineer.
+
+
 # ZSHRC
 
-PS1="%F{033}Tally@Jorge%f %~ -> ";
-export PS1;
+#### PS1="%F{033}Tally@Jorge%f %~ -> ";
+#### export PS1;
+
+*Adds 033 color to text. 033 is color Blue*
 
 #### alias c='clear'
 
@@ -25,12 +34,8 @@ export PS1;
 *A handy way of start recording the Xcode Simulator. You need to provide a name for the video. ( Usage: `rs videoName` )*
 
 
+
 # BASH_PROFILE
-
-
-A list of customized terminal commands I used the most to boost my productivity. Feel free to reuse this .bash_profile. 
-
-I will be expanding this list from time to time as I discover / create more commands that help me on my day to day as an iOS Engineer.
 
 ### Terminal commands alias / functions:
 
