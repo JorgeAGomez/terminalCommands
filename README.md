@@ -37,7 +37,6 @@ I will be expanding this list from time to time as I discover / create more comm
 
 # BASH_PROFILE
 
-### Terminal commands alias / functions:
 
 #### alias c='clear'
 
