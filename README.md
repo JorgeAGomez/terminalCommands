@@ -4,6 +4,8 @@ A list of customized terminal commands I used the most to boost my productivity.
 
 I will be expanding this list from time to time as I discover / create more commands that help me on my day to day as an iOS Engineer.
 
+If using ZSH make sure to create the file `~/.zshrc` and add all these commands below inside this file. 
+
 
 # ZSHRC
 
