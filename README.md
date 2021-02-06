@@ -20,10 +20,10 @@ If using ZSH make sure to create the file `~/.zshrc` and add all these commands 
 *In order to use this commands you need to makes sure to install `imagemagick`. ( https://imagemagick.org/script/import.php ). I currently have a default size for the screenshot images ( 512x800 ) but feel free to adjust these values to match your needs.*
 
 ##### alias ..='cd ..'
-*A quick way to move back 1 directory, instead of having to type `cd ..` you can just do `..` to achieve the same.*
+*Move back one directory with `..`.*
 
 ##### alias atom='open -a "Atom"'
 *Open a file with Atom application*
 
 ##### rs () { xcrun simctl io booted recordVideo "$1".MOV; }
-*A handy way of start recording the Xcode Simulator. You need to provide a name for the video. ( Usage: `rs videoName` )*
+*Start recording the Xcode simulator. To stop recording press `control + c` and it will save the video in the current directory with the name provided ( Usage: `rs videoName` )*
