@@ -17,7 +17,7 @@ If using ZSH make sure to create the file `~/.zshrc` and add all these commands 
 *Clears your terminal*
 
 ##### alias ss='magick montage *.png -geometry 512x800+4+4 mr_screenshot.jpg'
-*In order to use this commands you need to makes sure to install `imagemagick`. ( https://imagemagick.org/script/import.php ). I currently have a default size for the screenshot images ( 512x800 ) but feel free to adjust these values to match your needs.*
+*In order to use this commands you need to install `imagemagick`. ( https://imagemagick.org/script/import.php ). I currently have a default size for the screenshot images ( 512x800 ) but feel free to adjust these values to match your needs.*
 
 ##### alias ..='cd ..'
 *Move back one directory with `..`.*
