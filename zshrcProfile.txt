@@ -1,0 +1,13 @@
+echo '----------------------------------'
+echo '     Welcome to Terminal Jorge'
+echo '----------------------------------'
+
+PS1="%F{033}Tally@Jorge%f %~ -> ";
+export PS1;
+
+alias c='clear'
+alias ss='magick montage *.png -geometry 712x1000+2+2 mr_screenshot.jpg'
+alias ..='cd ../'
+rs () { xcrun simctl io booted recordVideo "$1".MOV; }
+alias atom='open -a "Atom"'
+deeplink () { xcrun simctl openurl booted $1; }
